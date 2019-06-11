@@ -18,3 +18,14 @@ public class HelloWorldServlet extends HttpServlet {
 
     }
 }
+
+//PrintWriter out = res.getWriter();
+//String name = "World";
+//
+//if (req.getParameter("name") != null) {
+//    name = req.getParameter("name");
+//        }
+//out.println("Hello " + name);
+//        } catch (IOException e) {
+//        e.printStackTrace();
+//        }
