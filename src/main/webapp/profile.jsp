@@ -11,6 +11,7 @@
     <title>User Profile</title>
 </head>
 <body>
+<%@ include file="partials/head.jsp" %>
 <%@ include file="partials/header.jsp" %>
 <%@ include file="partials/navbar.jsp" %>
 
