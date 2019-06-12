@@ -7,11 +7,19 @@
     <title>Login, why don't ya?</title>
 </head>
 <body>
+<%@ include file="partials/header.jsp" %>
+<%@ include file="partials/navbar.jsp" %>
+
+
+</body>
     <h3>Please log in!</h3>
 
     <form action="/login.jsp" method="POST">
-        Username:<input type="text" name="username"/><br/><br/>
-        Password:<input type="password" name="password"/><br/><br/>
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username"/><br/>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"/><br/>
         <input type="submit" value="login"/>
     </form>
 
@@ -19,5 +27,6 @@
         <%response.sendRedirect("/profile.jsp");%>
     </c:if>
 
+<%@ include file="partials/footer.jsp" %>
 </body>
 </html>

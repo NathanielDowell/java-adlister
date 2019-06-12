@@ -11,8 +11,11 @@
     <title>User Profile</title>
 </head>
 <body>
+<%@ include file="partials/header.jsp" %>
+<%@ include file="partials/navbar.jsp" %>
 
 <h3>Here is a profile page. Woot.</h3>
 
+<%@ include file="partials/footer.jsp" %>
 </body>
 </html>
